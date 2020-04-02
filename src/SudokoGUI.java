@@ -30,6 +30,14 @@ public class SudokoGUI extends JFrame implements SwingConstants {
 		setPreferredSize(new Dimension(650,650));
 		setResizable(false);
 		
+		//Add menu item to let user choose a number from 1-9 
+		
+		int[] numberToChoose = {1 , 2, 3, 4, 5, 6, 7, 8, 9}'
+			JComboBox numbersList = new JComboBox (numbersToChoose);
+		JLabel nameofWindow = new JLabel();
+		
+		
+		
 		// Add the menu to support Undo operation
 		//Create the menu bar.
 		menuBar = new JMenuBar();
