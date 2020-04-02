@@ -39,6 +39,12 @@ public class SudokoGUI extends JFrame implements SwingConstants {
 		public static final RIGHT;  //Right 
 		public static final CENTER; // cenetr 
 		
+		int number  = Integer.parseInt( intupt , number );
+        sum += number ;      
+        Input.setText("");
+        Output.text(sum + "");
+
+		
 		
 		
 		
