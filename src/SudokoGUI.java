@@ -35,6 +35,10 @@ public class SudokoGUI extends JFrame implements SwingConstants {
 		int[] numberToChoose = {1 , 2, 3, 4, 5, 6, 7, 8, 9}'
 			JComboBox numbersList = new JComboBox (numbersToChoose);
 		JLabel nameofWindow = new JLabel();
+		public static final LEFT;   // left 
+		public static final RIGHT;  //Right 
+		public static final CENTER; // cenetr 
+		
 		
 		
 		
