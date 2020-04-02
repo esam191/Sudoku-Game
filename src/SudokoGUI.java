@@ -39,7 +39,10 @@ public class SudokoGUI extends JFrame implements SwingConstants {
 		public static final RIGHT;  //Right 
 		public static final CENTER; // cenetr 
 		
-		
+		Frame frame = JOptionPane.getFrameForComponent(frameComp);
+		final JButton setButton = new JButton("Select");
+        	setButton.setActionCommand("selectNum");
+        	setButton.addActionListener(dropmenu);
 		
 		
 		// Add the menu to support Undo operation
