@@ -22,6 +22,27 @@ public class MySudokoExample implements SudokoGame {
         this.number = num;
     }
 	}
+	
+	List<String> testList;
+	
+	//testing output
+	
+public void testCase() {
+	
+	for (Failure failure : result.getFailures()) {
+      System.out.println(failure.toString());
+    }
+	
+}
+     
+
+    public void initialize() {
+        testList = new ArrayList<String>();
+    }
+     
+    public void testMethod() {
+	    
+    }
 		
 
 	
