@@ -12,8 +12,17 @@ public class MySudokoExample implements SudokoGame {
 	String sourceName;
 	
 	public MySudokoExample() {
+		private int number;
+ 
+    public int getNumber() {
+        return this.number;
+    }
+ 
+    public void setNumber(int num) {
+        this.number = num;
+    }
+	}
 		
-			}
 
 	
 	public MouseListener[][] getPanelMouseListeners() {
@@ -42,6 +51,9 @@ public class MySudokoExample implements SudokoGame {
 	    // The other approach is to modify the SudokoMouseAction so that
 	    // it contains an identifier field that identifies it as corresponding
 	    // to a particular location.
+	     test caste ( pass, fail);
+	     test = true;
+	     test cast = fail;
 
 		for (int i=0; i<SudokoGUI.MAX_ROW*SudokoGUI.MAX_ROW; i++)
 			for (int j=0; j<SudokoGUI.MAX_COL*SudokoGUI.MAX_COL; j++) {
